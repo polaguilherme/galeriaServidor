@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/login.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-image">
+        <img src="./img/montanhas-com-rios-12.jpg" alt="imagem" />
+      </div>
+      <div class="form">
+        <form action="#">
+          <div class="form-header">
+            <div class="title">
+              <h1>Cadastre-se</h1>
+            </div>
+            <div class="login-button">
+              <button onclick="logar()"><a href="#">Entrar</a></button>
+            </div>
+          </div>
+          <div class="input-group">
+            <div class="input-box">
+              <label for="name">Seu Nome</label>
+              <input
+                id="name"
+                type="text"
+                name="name"
+                placeholder="Digite seu nome"
+                required
+              />
+            </div>
+            <div class="input-box">
+              <label for="name">Sua Senha</label>
+              <input
+                id="Senha"
+                type="password"
+                name="Senha"
+                placeholder="Digite sua Senha"
+                required
+              />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="./script/login.js"></script>
+  </body>
+</html>
